@@ -15,10 +15,10 @@ components:
     tag: v1.30.4
     image: piraeus-server
   linstor-csi:
-    tag: v1.6.4
+    tag: v1.7.0
     image: piraeus-csi
   drbd-reactor:
-    tag: v1.7.0
+    tag: v1.8.0
     image: drbd-reactor
   ha-controller:
     tag: v1.3.0
