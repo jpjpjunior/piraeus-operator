@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Storage pools are only registered once their backing volume group or ZFS pool exists on the node, avoiding pools stuck in the `error` state.
 - Source devices are checked for existence before a storage pool is created from them, reporting any that are missing.
+- Updated images:
+    * DRBD 9.3.3
+    * LINSTOR CSI 1.11.3
+    * LINSTOR Affinity Controller 1.4.2
+    * HA Controller 1.3.3
+    * Latest CSI sidecars
 
 ## [v2.10.7] - 2026-05-13
 
