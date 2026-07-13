@@ -14,10 +14,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Updated images:
+    * LINSTOR 1.34.0
+
+## [v2.10.8] - 2026-07-08
+
+### Changed
+
 - Storage pools are only registered once their backing volume group or ZFS pool exists on the node, avoiding pools stuck in the `error` state.
 - Source devices are checked for existence before a storage pool is created from them, reporting any that are missing.
 - Updated images:
-    * LINSTOR 1.34.0
+    * DRBD 9.3.3
+    * LINSTOR CSI 1.11.3
+    * LINSTOR Affinity Controller 1.4.2
+    * HA Controller 1.3.3
     * Latest CSI sidecars
 
 ## [v2.10.7] - 2026-05-13
@@ -1219,4 +1229,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v2.10.5]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.4...v2.10.5
 [v2.10.6]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.5...v2.10.6
 [v2.10.7]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.6...v2.10.7
-[Unreleased]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.7...HEAD
+[v2.10.8]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.7...v2.10.8
+[Unreleased]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.8...HEAD
