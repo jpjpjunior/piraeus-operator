@@ -27,7 +27,9 @@ jobs:
     - run: mkdocs build -s
 
   deploy-docs:
-    if: ${{ github.event_name != 'pull_request' }}
+    # Pre-release tags (v2.11.0-rc.1, ...) must not be published to the docs
+    # site, and especially must not move the "stable" alias.
+    if: ${{ github.event_name != 'pull_request' && (github.ref_type != 'tag' || !contains(github.ref_name, '-')) }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
