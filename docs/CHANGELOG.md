@@ -7,12 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Fixed
-
-- Fix detection of VolumeGroupSnapshots API.
-
-## [v2.11.0-rc.1] - 2026-07-24
-
 ### Added
 
 - Allow configuring the separator between generated Satellite resource names and the Satellite name.
@@ -22,10 +16,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated images:
-    * LINSTOR 1.34.1
+    * LINSTOR 1.34.2
     * LINSTOR CSI 1.12.0
     * LINSTOR Affinity Controller 1.5.0
     * DRBD Reactor 1.12.0
+
+### Fixed
+
+- Fix detection of VolumeGroupSnapshots API.
 
 ## [v2.10.8] - 2026-07-08
 
@@ -1240,5 +1238,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v2.10.6]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.5...v2.10.6
 [v2.10.7]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.6...v2.10.7
 [v2.10.8]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.7...v2.10.8
-[v2.11.0-rc.1]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.8...v2.11.0-rc.1
-[Unreleased]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.11.0-rc.1...HEAD
+[Unreleased]: https://github.com/piraeusdatastore/piraeus-operator/compare/v2.10.8...HEAD
