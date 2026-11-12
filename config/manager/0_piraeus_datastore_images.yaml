@@ -26,7 +26,7 @@ components:
     tag: v1.3.4
     image: piraeus-ha-controller
   drbd-shutdown-guard:
-    tag: v1.1.2
+    tag: v1.1.3
     image: drbd-shutdown-guard
   ktls-utils:
     tag: v1.5.0
